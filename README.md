@@ -1,2 +1,2 @@
-# brownieRecipee
+# brownieRecipe
 Brownie project
