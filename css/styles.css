@@ -1,0 +1,165 @@
+* {
+    /*Universal Selector*/
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    /*Element Selector*/
+    background-color: burlywood;
+    margin: 20px;
+    padding: 20px;
+}
+
+#theTitle {
+    /*Id Selector*/
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    color: darkred;
+    font-size: 400%;
+    display: block;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+img {
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+    border: brown;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+img[alt] {
+    /*Attribute Selector*/
+    color: blue;
+}
+
+section>p {
+    /*Child Selector*/
+    font-size: large;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+ul span {
+    /*Descendant Selector*/
+    color: coral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li {
+    list-style: circle;
+    list-style-type: disc;
+    text-decoration: solid;
+    font-size: large;
+}
+
+ul li::marker {
+    color: brown;
+}
+
+ul[type] {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: solid;
+
+}
+
+.list-class1,
+.list-class2 {
+    color: maroon;
+}
+
+.class-list3,
+.class-list4,
+.class-list5 {
+    /*Grouping Selector*/
+    color: purple;
+}
+
+ol[type] {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: solid;
+    font-size: large;
+}
+
+ol li::marker {
+    color: brown;
+}
+
+h3~p {
+    /*General Sibling*/
+    color: darkgreen;
+    text-decoration: solid;
+    font-size: large;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: darkolivegreen;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: large;
+    text-decoration: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.class-con {
+    /*Class Selector*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: solid;
+    text-align: center;
+
+}
+
+.class-h11 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: solid;
+    font-size: large;
+}
+
+
+a[target] {
+    font-size: xx-large;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+table {
+    margin-top: 40px;
+}
+
+h3+span {
+    /*Adjacent Selector*/
+    color: darkslateblue;
+}
+
+h3,
+span,
+p {
+    /*Grouping Selector*/
+    text-decoration: solid;
+    text-transform: uppercase;
+}
